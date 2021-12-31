@@ -75,5 +75,12 @@ Rails.application.configure do
   # config.action_cable.disable_request_forgery_protection = true
 
   config.hosts << "port-3000-ruby-astonishing-lunch-alex376474.preview.codeanywhere.com"
+  config.hosts << "www.lightcraftfilms.com"
+  config.hosts << "user1.lightcraftfilms.com"
+  config.hosts << "user2.lightcraftfilms.com"
+  config.hosts << "user3.lightcraftfilms.com"
+  config.hosts << "user4.lightcraftfilms.com"
+
+  
   
 end
