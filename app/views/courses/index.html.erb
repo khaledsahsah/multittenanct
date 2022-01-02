@@ -10,7 +10,7 @@
 <% end %>
 <h1>Courses for <%= ActsAsTenant.current_tenant.name if ActsAsTenant.current_tenant.present? %></h1>
 
-
+<h1><%= current_user.email %></h1>
 
 <table>
   <thead>
