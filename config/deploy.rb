@@ -2,7 +2,7 @@
 lock "~> 3.16.0"
 
 set :application, "testapp"
-set :repo_url, "git@example.com:me/my_repo.git"
+set :repo_url, "git@github.com:khaledsahsah/multittenanct.git"
 set :branch, 'main'
 
 set :deploy_to, "/home/deploy/#{fetch :application}"
