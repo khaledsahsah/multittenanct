@@ -1,4 +1,4 @@
-server '137.184.64.101', user: 'deploy', roles: %w{app db web}
+server 'srv.fsdevelopmentdomain2.com', user: 'deploy', roles: %w{app db web}
 
 
 # server-based syntax
