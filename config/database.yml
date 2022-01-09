@@ -21,4 +21,5 @@ test:
   database: "subdomain_rails_test"
 
 production:
-  url: <%= ENV["DATABASE_URL"] %>
+  url: "postgresql://production:El6VwsHEK0FtdsvM@alexcontainer2-1-do-user-10556771-0.b.db.ondigitalocean.com:25060/production?sslmode=require"
+#  url: <%= ENV["DATABASE_URL"] %>
